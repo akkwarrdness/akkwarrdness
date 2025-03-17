@@ -6,8 +6,10 @@
     <title>rid</title>
     <script>
       function check(){
-        let uid = document.getElementById['usrid'];
-        let upw = document.getElementById['pw'];
+        let uid = document.getElementById['usrid'].value;
+        let upw = document.getElementById['pw'].value;
+        document.getElementById['usrid'].value = "";
+        document.getElementById['pw'].value = "";
         if(uid == 'a'&& upw == 'a'){
           document.cookie = "cookieTest = successLogin";
           location.href = "https://akkwarrdness.github.io/akkwarrdness/";
