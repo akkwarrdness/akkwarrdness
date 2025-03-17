@@ -1,0 +1,1 @@
+let rid = document.cookie;
